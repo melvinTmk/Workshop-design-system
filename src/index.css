@@ -23,10 +23,12 @@
 body {
   margin: 0;
   font-family: 'Kanit', sans-serif;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--color-bg);
   overflow-x: hidden;
+  overflow-y: hidden;
   color: var(--color-white);
 }
 
@@ -35,6 +37,12 @@ body {
 section{
   margin-top: 8rem;
   height: 100vh;
+}
+
+#signUp{
+  display: flex;
+  justify-content: space-evenly ;
+  flex-direction: column;
 }
 
 .container{
@@ -47,12 +55,22 @@ section{
   border-radius: 5px;
 }
 
+#signUp .container{
+  max-width: 700px;
+}
+
+.link-color-primary{
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .label-form{
   float: left;
 }
 
 .titre{
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .titre h1{
@@ -62,9 +80,22 @@ section{
 
 .button-form{
   background-color: var(--color-primary);
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body{
+    overflow-y: scroll;
+  }
+
+ .container{
+  width: 80%;
+ }
 }
