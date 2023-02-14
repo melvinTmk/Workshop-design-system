@@ -1,5 +1,5 @@
 nav{
-    background: linear-gradient(45deg, var(--color-bg), transparent);
+    background: linear-gradient(45deg, var(--color-bg-variant), transparent);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -7,7 +7,7 @@ nav{
     position:fixed;
     left: 50%;
     transform: translate(-50%);
-    bottom: 2rem;
+    bottom: 1rem;
     display: flex;
     gap:0.8rem;
     border-radius: 3rem;

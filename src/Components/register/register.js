@@ -15,7 +15,7 @@ const Register = () => {
             </p>
           </div>
 
-          <form class="bg-white rounded px-8 pb-8 mb-4">
+          <form class=" rounded pt-6 px-8 pb-8 mb-4">
             <div className="grid gap-4 md:grid-cols-2 ">
               <div className="mb-4">
                 <label
