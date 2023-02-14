@@ -60,6 +60,10 @@ section{
   font-weight: bold;
 }
 
+.button-form{
+  background-color: var(--color-primary);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
