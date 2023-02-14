@@ -1,11 +1,8 @@
 :root{
-  --color-bg: #003049;
-  --color-bg-variant : #2c2c6c;
-  --color-primary: #d62828;
-  --color-primary-variant: #f77f00;
-  --color-secondary:#fcbf49;
-  --color-white:#fff;
-  --color-light:rgba(255,255,255,0.6);
+  --color-bg: #fff;
+  --color-bg-variant : #F8F8F8;
+  --color-primary: #904F17;
+  --color-dark:#000000;
 
   --container-width-lg:50%;
   --container-width-md:86%;
@@ -19,6 +16,14 @@
 section{
   margin-top: 8rem;
   height: 100vh;
+}
+
+.container{
+  max-width: 300px;
+  background-color: red;
+  margin: 0 auto;
+  padding: 0.2rem;
+  border-radius: 1rem;
 }
 
 body {
