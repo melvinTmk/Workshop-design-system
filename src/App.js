@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './Components/login/login';
 import Register from './Components/register/register';
-import Nav from './Components/nav/nav';
+//import Nav from './Components/nav/nav';
 
 function App() {
   return (
@@ -10,8 +10,6 @@ function App() {
       <Login/>
       <Register/>
       <section></section>
-      <Nav/>
-
 
     </div>
   );

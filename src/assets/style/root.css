@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;1,100&display=swap");
+
+:root{
+    
+    --h1-weight: 700;
+    --subtitle-weight: 400;
+    --subtitle-link-weight: 400;
+    --btn-weight: 700;
+    --placeholder-weight:400;
+    --label-weight: 400;
+    --more-info-weight: 400;
+    --sm-link-weight:400;
+
+    --h1-ft-size: 30px;
+    --subtitle-ft-size: 18px;
+    --subtitle-link-ft-size: 18px;
+    --btn-ft-size: 16px;
+    --placeholder-ft-size: 16px;
+    --label-ft-size: 14px;
+    --more-info-ft-size: 11px;
+    --sm-link-ft-size: 11px;
+
+
+    --form-box-shadow: 0px 2px 19px 1px rgba(0, 0, 0, 0.25);
+    --btn-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+
+    --form-border-radius: 6px;
+    --input-border-radius: 3px;
+    --button-border-radius: 4px;
+
+    --xs-spacing: 4px;
+    --sm-spacing: 12px;
+    --md-spacing: 24px;
+    --l-spacing: 60px;
+    --xl-spacing: 64px;
+
+    --loading-icon-height: 21px;
+    --loading-icon-width: 21px;
+
+    --lightest-color: #FFFFFF;
+    --medium-light-color: #F8F8F8;
+    --medium-dark-color: #909090;
+    --darkest-color: #000000;
+    --primary-color: #904F17;
+    --secondary-color: #687A62;
+    --main-bg-color: linear-gradient(243.18deg, rgba(0, 0, 0, 0.5) 24.95%, rgba(124, 45, 1, 0.5) 92.47%), #7C8F74;
+    
+    --bg-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://unsplash.com/photos/-hI5dX2ObAs);
+
+}
