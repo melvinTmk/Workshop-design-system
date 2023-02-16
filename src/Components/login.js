@@ -30,17 +30,17 @@ const Login = () => {
                 placeholder="Enter your password"
               />
 
-              <p className="float-left">
+              <p className="align-left">
                 {" "}
                 <a
-                  className="inline-block align-baseline font-bold text-sm forgot-password-link"
+                  className="typography-small-text forgot-password-link"
                   href="#"
                 >
                   Forgot Password?
                 </a>
               </p>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="button-container">
               <ButtonField text="Login" />
             </div>
           </form>

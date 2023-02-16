@@ -58,7 +58,7 @@ const Register = () => {
                 placeholder="Enter your password"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="button-container">
               <ButtonField text="Sign Up" />
             </div>
           </form>

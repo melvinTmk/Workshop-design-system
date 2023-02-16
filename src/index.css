@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;1,100&display=swap");
-
+@import url("./assets/style/root.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,54 +7,6 @@
 /*------------------------------------*\
   Global CSS
 \*------------------------------------*/
-
-:root {
-	--h1-weight: 700;
-	--subtitle-weight: 400;
-	--subtitle-link-weight: 400;
-	--btn-weight: 700;
-	--placeholder-weight: 400;
-	--label-weight: 400;
-	--more-info-weight: 400;
-	--sm-link-weight: 400;
-
-	--h1-ft-size: 30px;
-	--subtitle-ft-size: 18px;
-	--subtitle-link-ft-size: 18px;
-	--btn-ft-size: 16px;
-	--placeholder-ft-size: 16px;
-	--label-ft-size: 14px;
-	--more-info-ft-size: 11px;
-	--sm-link-ft-size: 11px;
-
-
-	--form-box-shadow: 0px 2px 19px 1px rgba(0, 0, 0, 0.25);
-	--btn-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
-
-	--form-border-radius: 6px;
-	--input-border-radius: 3px;
-	--button-border-radius: 4px;
-
-	--xs-spacing: 4px;
-	--sm-spacing: 12px;
-	--md-spacing: 24px;
-	--l-spacing: 60px;
-	--xl-spacing: 64px;
-
-	--loading-icon-height: 21px;
-	--loading-icon-width: 21px;
-
-	--lightest-color: #FFFFFF;
-	--medium-light-color: #F8F8F8;
-	--medium-dark-color: #909090;
-	--darkest-color: #000000;
-	--primary-color: #904F17;
-	--secondary-color: #687A62;
-	--main-bg-color: linear-gradient(243.18deg, rgba(0, 0, 0, 0.5) 24.95%, rgba(124, 45, 1, 0.5) 92.47%), #7C8F74;
-
-	--bg-image: url("../src/assets/form-bg2.png");
-
-}
 
 
 body {
@@ -66,6 +18,55 @@ body {
 	background: var(--main-bg-color);
 	overflow-x: hidden;
 	color: var(--color-white);
+}
+
+/*------------------------------------*\
+  Typography
+\*------------------------------------*/
+
+.typography-heading-1 {
+	font-weight: var(--heading-1-weight);
+	font-size: var(--heading-1-ft);
+	line-height: 45px;
+}
+
+.typography-heading-2 {
+	font-weight: var(--heading-2-weight);
+	font-size: var(--heading-2-ft);
+	line-height: 27px;
+}
+
+.typography-link {
+	font-weight: var(--link-weight);
+	font-size: var(--link-ft);
+	line-height: 27px;
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+
+.typography-paragraph {
+	font-weight: var(--paragraph-weight);
+	font-size: var(--paragraph-ft);
+	line-height: 24px;
+}
+
+.typography-btn {
+	font-weight: var(--btn-weight);
+	font-size: var(--btn-ft);
+	line-height: 21px;
+}
+
+.typography-label {
+	font-weight: var(--label-weight);
+	font-size: var(--label-ft);
+	line-height: 21px;
+}
+
+.typography-small-text {
+	font-weight: var(--small-text-weight);
+	font-size: var(--small-text-ft);
+	line-height: 21px;
+	text-decoration-line: underline;
 }
 
 /*------------------------------------*\
@@ -110,10 +111,8 @@ section {
 
 .subtitle-link {
 	color: var(--primary-color);
-	font-size: var(--subtitle-link-ft-size);
-	font-weight: var(--subtitle-link-weight);
-	text-decoration: underline;
 	padding: var(--sm-spacing);
+	cursor: pointer;
 }
 
 .label-form {
@@ -125,25 +124,32 @@ section {
 	margin-bottom: 2rem;
 }
 
-.form-header h1 {
-	font-size: var(--h1-ft-size);
-	font-weight: var(--h1-weight);
-	color: var(--darkest-color);
+.align-left {
+	text-align: left;
 }
 
-
+.button-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: var(--l-spacing) 0 0 0;
+}
 
 .button-form {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
+	border-radius: var(--input-border-radius);
 	box-shadow: var(--btn-box-shadow);
 	font-weight: var(--btn-weight);
 	font-size: var(--btn-ft-size);
+	padding: var(--xs-spacing) var(--sm-spacing);
+	width: 171px;
+	color: var(--lightest-color);
 }
 
 .btn-cancel{
 	background-color: var(--lightest-color);
-	color:var(--primary-color);
+	color: var(--primary-color);
 }
 
 .button-form:hover {
@@ -155,6 +161,13 @@ section {
 	background-color: var(--lightest-color);
 	border-color: var(--lightest-color);
 	color: var(--primary-color);
+}
+
+.input-form {
+	padding: var(--xs-spacing) var(--sm-spacing);
+	border-radius: var(--input-border-radius);
+	background-color: var(--medium-light-color);
+	width: 100%;
 }
 
 .input-form:focus,
