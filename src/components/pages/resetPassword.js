@@ -11,6 +11,8 @@ const Register = () => {
           <FormHeader
             title="Reset Password"
             subtitle="You forgot your password ? Create a new one here."
+            subtitleLink="or Sign In"
+            subtitleLinkHref="#signIn"
           />
 
           <form class=" rounded pt-6 px-8 pb-8 mb-4">
