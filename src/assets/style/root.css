@@ -44,6 +44,6 @@
     --secondary-color: #687A62;
     --main-bg-color: linear-gradient(243.18deg, rgba(0, 0, 0, 0.5) 24.95%, rgba(124, 45, 1, 0.5) 92.47%), #7C8F74;
     
-    --bg-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://unsplash.com/photos/-hI5dX2ObAs);
+    --bg-image: url("../images/form-bg2.png");
 
 }

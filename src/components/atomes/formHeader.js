@@ -7,7 +7,7 @@ const FormHeader = (props) => {
       <p className="typography-paragraph">
         {props.subtitle}
         <span className="typography-link subtitle-link">
-          <a>{props.subtitleLink}</a>
+          <a href={props.subtitleLinkHref}>{props.subtitleLink}</a>
         </span>
       </p>
     </div>

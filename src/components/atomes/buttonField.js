@@ -1,7 +1,7 @@
 import React from "react";
 
 const ButtonField = (props) => {
-  if (props.name == "cancel") {
+  if (props.name === "cancel") {
     return (
       <button
       className="typography-btn button-form btn-cancel"

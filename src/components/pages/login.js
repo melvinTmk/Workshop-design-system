@@ -1,7 +1,7 @@
 import React from "react";
-import InputField from "./SubComponents/inputField";
-import ButtonField from "./SubComponents/buttonField";
-import FormHeader from "./SubComponents/formHeader";
+import InputField from "../atomes/inputField";
+import ButtonField from "../atomes/buttonField";
+import FormHeader from "../atomes/formHeader";
 
 const Login = () => {
   return (
@@ -12,6 +12,7 @@ const Login = () => {
             title="Sign In"
             subtitle="You don’t have an account yet ?"
             subtitleLink="Sign Up"
+            subtitleLinkHref="#signUp"
           />
 
           <form class="  rounded px-8 pt-6 pb-8 mb-4">
@@ -34,7 +35,7 @@ const Login = () => {
                 {" "}
                 <a
                   className="typography-small-text forgot-password-link"
-                  href="#"
+                  href="#reset-password"
                 >
                   Forgot Password?
                 </a>

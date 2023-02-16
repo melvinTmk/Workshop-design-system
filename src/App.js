@@ -1,9 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import Login from './Components/login';
-import Register from './Components/register';
-import ResetPassword from './Components/resetPassword';
-//import Nav from './Components/nav/nav';
+import Login from './components/pages/login';
+import Register from './components/pages/register';
+import ResetPassword from './components/pages/resetPassword';
 
 function App() {
   return (
@@ -12,7 +9,6 @@ function App() {
       <Register/>
       <ResetPassword/>
       <section></section>
-
     </div>
   );
 }

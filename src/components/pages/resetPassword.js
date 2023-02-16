@@ -1,7 +1,7 @@
 import React from "react";
-import InputField from "./SubComponents/inputField";
-import ButtonField from "./SubComponents/buttonField";
-import FormHeader from "./SubComponents/formHeader";
+import InputField from "../atomes/inputField";
+import ButtonField from "../atomes/buttonField";
+import FormHeader from "../atomes/formHeader";
 
 const Register = () => {
   return (

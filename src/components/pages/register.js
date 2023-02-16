@@ -1,7 +1,7 @@
 import React from "react";
-import InputField from "./SubComponents/inputField";
-import ButtonField from "./SubComponents/buttonField";
-import FormHeader from "./SubComponents/formHeader";
+import InputField from "../atomes/inputField";
+import ButtonField from "../atomes/buttonField";
+import FormHeader from "../atomes/formHeader";
 
 const Register = () => {
   return (
@@ -12,6 +12,7 @@ const Register = () => {
             title="Sign Up"
             subtitle="You already have an account ?"
             subtitleLink="Sign In"
+            subtitleLinkHref="#signIn"
           />
 
           <form class=" rounded pt-6 px-8 pb-8 mb-4">

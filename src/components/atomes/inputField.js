@@ -1,7 +1,7 @@
 import React from "react";
 
 const InputField = (props) => {
-  if (props.type == "password") {
+  if (props.type === "password") {
     return (
       <div className="mb-4">
         <label
@@ -18,7 +18,7 @@ const InputField = (props) => {
         />
       </div>
     );
-  } else if (props.type == "required") {
+  } else if (props.type === "required") {
     return (
       <div className="mb-4">
         <label
